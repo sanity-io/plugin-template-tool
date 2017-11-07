@@ -1,0 +1,25 @@
+{
+  "name": "plugin-template-tool",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Plugin template for a basic, empty tool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/plugin-template-tool.git"
+  },
+  "keywords": [],
+  "author": "Sanity.io <hello@sanity.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanity-io/plugin-template-tool/issues"
+  },
+  "homepage": "https://github.com/sanity-io/plugin-template-tool#readme",
+  "peerDependencies": {
+    "react": "^15.0.0"
+  },
+  "sanityTemplate": {
+    "suggestedName": "my-custom-tool",
+    "requiresConfig": false,
+    "minimumBaseVersion": "0.119.0"
+  }
+}
